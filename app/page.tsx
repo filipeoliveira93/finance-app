@@ -1,5 +1,7 @@
-const Home = () => {
-  return( <h1 className="text-3xl font-bold underline text-red-100">Olá eu sou o projeto</h1>)
-}
+import { Button } from "./_components/ui/button";
 
-export default Home
+const Home = () => {
+  return <Button>Eu sou um botão</Button>;
+};
+
+export default Home;
